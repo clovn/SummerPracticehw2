@@ -1,10 +1,12 @@
-package ru.kpfu.itis.homework2
+package ru.kpfu.itis.homework2.Fragments
 
 import android.os.Bundle
 import androidx.fragment.app.Fragment
 import android.view.View
 import androidx.navigation.fragment.findNavController
 import com.bumptech.glide.Glide
+import ru.kpfu.itis.homework2.MusicRepository
+import ru.kpfu.itis.homework2.R
 import ru.kpfu.itis.homework2.databinding.FragmentMusicInfoBinding
 
 

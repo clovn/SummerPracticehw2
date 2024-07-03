@@ -1,4 +1,4 @@
-package ru.kpfu.itis.homework2
+package ru.kpfu.itis.homework2.Fragments
 
 import android.os.Bundle
 import androidx.fragment.app.Fragment
@@ -6,6 +6,7 @@ import android.view.View
 import ru.kpfu.itis.homework2.databinding.FragmentMainBinding
 import androidx.navigation.fragment.findNavController
 import com.google.android.material.snackbar.Snackbar
+import ru.kpfu.itis.homework2.R
 
 
 class MainFragment : Fragment(R.layout.fragment_main) {

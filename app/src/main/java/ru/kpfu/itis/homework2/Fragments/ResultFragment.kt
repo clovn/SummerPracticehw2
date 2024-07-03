@@ -1,11 +1,9 @@
-package ru.kpfu.itis.homework2
+package ru.kpfu.itis.homework2.Fragments
 
 import android.os.Bundle
 import androidx.fragment.app.Fragment
-import android.view.LayoutInflater
 import android.view.View
-import android.view.ViewGroup
-import ru.kpfu.itis.homework2.databinding.FragmentMainBinding
+import ru.kpfu.itis.homework2.R
 import ru.kpfu.itis.homework2.databinding.FragmentResultBinding
 
 class ResultFragment : Fragment(R.layout.fragment_result) {

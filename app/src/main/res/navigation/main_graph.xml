@@ -6,17 +6,17 @@
 
     <fragment
         android:id="@+id/profileFragment"
-        android:name="ru.kpfu.itis.homework2.ProfileFragment"
+        android:name="ru.kpfu.itis.homework2.Fragments.ProfileFragment"
         android:label="ProfileFragment" />
 
     <fragment
         android:id="@+id/settingsFragment"
-        android:name="ru.kpfu.itis.homework2.SettingsFragment"
+        android:name="ru.kpfu.itis.homework2.Fragments.SettingsFragment"
         android:label="SettingsFragment" />
 
     <fragment
         android:id="@+id/mainFragment"
-        android:name="ru.kpfu.itis.homework2.MainFragment"
+        android:name="ru.kpfu.itis.homework2.Fragments.MainFragment"
         android:label="fragment_main"
         tools:layout="@layout/fragment_main" >
         <action
@@ -30,7 +30,7 @@
 
     <fragment
         android:id="@+id/musicFragment"
-        android:name="ru.kpfu.itis.homework2.MusicFragment"
+        android:name="ru.kpfu.itis.homework2.Fragments.MusicFragment"
         android:label="MusicFragment" >
         <action
             android:id="@+id/action_musicFragment_to_musicInfoFragment"
@@ -39,15 +39,15 @@
 
     <fragment
         android:id="@+id/videoFragment"
-        android:name="ru.kpfu.itis.homework2.VideoFragment"
+        android:name="ru.kpfu.itis.homework2.Fragments.VideoFragment"
         android:label="VideoFragment" />
     <fragment
         android:id="@+id/resultFragment"
-        android:name="ru.kpfu.itis.homework2.ResultFragment"
+        android:name="ru.kpfu.itis.homework2.Fragments.ResultFragment"
         android:label="ResultFragment" />
     <fragment
         android:id="@+id/musicInfoFragment"
-        android:name="ru.kpfu.itis.homework2.MusicInfoFragment"
+        android:name="ru.kpfu.itis.homework2.Fragments.MusicInfoFragment"
         android:label="MusicInfoFragment" >
         <action
             android:id="@+id/action_musicInfoFragment_to_musicFragment"
