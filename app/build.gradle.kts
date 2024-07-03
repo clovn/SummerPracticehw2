@@ -1,6 +1,7 @@
 plugins {
     alias(libs.plugins.android.application)
     alias(libs.plugins.jetbrains.kotlin.android)
+    //id("com.google.devtools.ksp")
 }
 
 android {
@@ -50,6 +51,10 @@ dependencies {
     val nav_version = "2.7.7"
     implementation("androidx.navigation:navigation-fragment-ktx:$nav_version")
     implementation("androidx.navigation:navigation-ui-ktx:$nav_version")
+
+    val glide_version = "4.16.0"
+    implementation("com.github.bumptech.glide:glide:$glide_version")
+    //ksp("com.github.bumptech.glide:ksp:$glide_version")
 
     testImplementation(libs.junit)
     androidTestImplementation(libs.androidx.junit)

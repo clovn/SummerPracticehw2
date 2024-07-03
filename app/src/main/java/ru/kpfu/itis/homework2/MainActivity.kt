@@ -24,17 +24,12 @@ class MainActivity : AppCompatActivity() {
 
         setContentView(viewBinding?.root)
 
-        val controller = (supportFragmentManager.findFragmentById(R.id.container) as NavHostFragment).navController
+        controller = (supportFragmentManager.findFragmentById(R.id.container) as NavHostFragment).navController
 
         viewBinding?.apply {
-            navigation.setupWithNavController(controller)
+            navigation.setupWithNavController(controller!!)
         }
 
-    }
-
-    override fun onBackPressed() {
-        super.onBackPressed()
-        controller?.navigateUp()
     }
 
     override fun onDestroy() {
