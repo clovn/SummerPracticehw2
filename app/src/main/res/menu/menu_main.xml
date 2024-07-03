@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/profileFragment"
+        android:icon="@drawable/baseline_account_circle_24"
+        android:title="@string/profile_screen" />
+
+    <item
+        android:id="@+id/settingsFragment"
+        android:icon="@drawable/baseline_settings_24"
+        android:title="@string/settings_screen" />
+
+    <item
+        android:id="@+id/mainFragment"
+        android:icon="@drawable/baseline_home_max_24"
+        android:title="@string/main_screen" />
+
+    <item
+        android:id="@+id/musicFragment"
+        android:icon="@drawable/baseline_music_note_24"
+        android:title="@string/music_screen" />
+
+    <item
+        android:id="@+id/videoFragment"
+        android:icon="@drawable/baseline_videocam_24"
+        android:title="@string/video_screen" />
+
+</menu>
