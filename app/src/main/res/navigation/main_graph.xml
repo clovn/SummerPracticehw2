@@ -31,7 +31,11 @@
     <fragment
         android:id="@+id/musicFragment"
         android:name="ru.kpfu.itis.homework2.MusicFragment"
-        android:label="MusicFragment" />
+        android:label="MusicFragment" >
+        <action
+            android:id="@+id/action_musicFragment_to_musicInfoFragment"
+            app:destination="@id/musicInfoFragment" />
+    </fragment>
 
     <fragment
         android:id="@+id/videoFragment"
@@ -41,4 +45,12 @@
         android:id="@+id/resultFragment"
         android:name="ru.kpfu.itis.homework2.ResultFragment"
         android:label="ResultFragment" />
+    <fragment
+        android:id="@+id/musicInfoFragment"
+        android:name="ru.kpfu.itis.homework2.MusicInfoFragment"
+        android:label="MusicInfoFragment" >
+        <action
+            android:id="@+id/action_musicInfoFragment_to_musicFragment"
+            app:destination="@id/musicFragment" />
+    </fragment>
 </navigation>

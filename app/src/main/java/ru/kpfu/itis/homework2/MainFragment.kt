@@ -3,7 +3,6 @@ package ru.kpfu.itis.homework2
 import android.os.Bundle
 import androidx.fragment.app.Fragment
 import android.view.View
-import androidx.core.view.isNotEmpty
 import ru.kpfu.itis.homework2.databinding.FragmentMainBinding
 import androidx.navigation.fragment.findNavController
 import com.google.android.material.snackbar.Snackbar
